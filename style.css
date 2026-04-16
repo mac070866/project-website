@@ -69,9 +69,17 @@ li {
 .row {
     width: 100%;
     max-width: 1300px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#about,
+#discord,
+#contact,
+footer {
+    padding: 40px 0;
 }
 
 /*
@@ -79,13 +87,6 @@ li {
 ABOUT
 
 */
-
-#about,
-#discord,
-#contact {
-    padding: 40px 0;
-}
-
 #about {
     background-color: #f8ffdc;
 }
@@ -160,4 +161,32 @@ input, textarea {
     margin-bottom: 24px;
     font-size: 20px;
     padding: 6px 12px;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+
+}
+
+.footer__link {
+    padding: 0 16px;
 }
